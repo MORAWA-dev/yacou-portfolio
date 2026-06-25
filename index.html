@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Portfolio minimaliste de Yacouba Ouedraogo, étudiant en ingénierie minière et géologique, basé sur son CV en français."
+    />
+    <meta name="theme-color" content="#0f172a" />
+    <title>Yacouba Ouedraogo | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="ambient ambient-left"></div>
+    <div class="ambient ambient-right"></div>
+
+    <main class="page-shell">
+      <header class="topbar card reveal">
+        <div class="brand-lockup">
+          <span class="brand-mark">YO</span>
+          <div>
+            <p class="brand-name">Yacouba Ouedraogo</p>
+            <p class="brand-subtitle">Portfolio diplômé · Ingénierie minière et géologique</p>
+          </div>
+        </div>
+
+        <nav class="topnav" aria-label="Navigation principale">
+          <a href="#about">Profil</a>
+          <a href="#projects">Réalisations</a>
+          <a href="#experience">Parcours</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <section class="hero card reveal">
+        <div class="hero__copy">
+          <p class="eyebrow">Portfolio / CV</p>
+          <h1 id="name">Yacouba Ouedraogo</h1>
+          <p class="headline" id="headline">
+            Diplômé en Bachelor en Ingénierie Minière et Géologique
+          </p>
+          <p class="summary" id="summary">
+            Récemment diplômé de l’École Supérieure de Technologie de Fquih Ben
+            Salah, il met en avant une approche rigoureuse, autonome et orientée
+            terrain, avec un intérêt fort pour la géotechnique et la stabilité
+            minière.
+          </p>
+
+          <div class="status-badges">
+            <span class="badge badge--accent">Gradué en 2026</span>
+            <span class="badge">Disponible pour opportunités</span>
+          </div>
+
+          <div class="hero__actions">
+            <a class="button button--primary" href="#contact">Contact</a>
+            <a class="button button--ghost" href="#experience">Expérience</a>
+          </div>
+
+          <div class="stats-strip" aria-label="Chiffres clés">
+            <div class="stat">
+              <span class="stat__value">2026</span>
+              <span class="stat__label">année de graduation</span>
+            </div>
+            <div class="stat">
+              <span class="stat__value">3</span>
+              <span class="stat__label">stages principaux</span>
+            </div>
+            <div class="stat">
+              <span class="stat__value">11+</span>
+              <span class="stat__label">domaines techniques</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="profile-panel">
+          <img class="profile-photo" src="yacou_short_croped.jpeg" alt="Photo de Yacouba Ouedraogo lors de sa graduation" />
+          <div class="profile-meta">
+            <p class="profile-meta__label">Localisation</p>
+            <p id="location">Fquih Ben Salah, Maroc</p>
+          </div>
+          <div class="profile-meta">
+            <p class="profile-meta__label">Statut</p>
+            <p id="status">Recherche de stage PFE</p>
+          </div>
+          <div class="profile-meta">
+            <p class="profile-meta__label">Langues</p>
+            <p id="languages">Mooré, Français, Anglais</p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="grid two-up" id="about">
+        <article class="card reveal">
+          <div class="section-heading">
+            <p class="eyebrow">À propos</p>
+            <h2>Profil</h2>
+          </div>
+          <p id="about-text" class="body-copy"></p>
+        </article>
+
+        <article class="card reveal" id="contact">
+          <div class="section-heading">
+            <p class="eyebrow">Coordonnées</p>
+            <h2>Contact</h2>
+          </div>
+          <ul class="contact-list" id="contact-list"></ul>
+        </article>
+      </section>
+
+      <section class="card reveal" id="projects">
+        <div class="section-heading section-heading--split">
+          <div>
+            <p class="eyebrow">Réalisations</p>
+            <h2>Projets et travaux clés</h2>
+          </div>
+          <p class="section-note">Les cartes ci-dessous sont cliquables et renvoient vers les éléments les plus parlants du parcours.</p>
+        </div>
+
+        <div class="project-grid" id="projects-grid"></div>
+      </section>
+
+      <section class="card reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Compétences</p>
+          <h2>Ce qu’il sait faire</h2>
+        </div>
+        <div class="chips" id="skills"></div>
+      </section>
+
+      <section class="card reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Mémoire</p>
+          <h2>Travail de fin d’études</h2>
+        </div>
+        <article class="thesis" id="thesis"></article>
+      </section>
+
+      <section class="grid two-up" id="experience">
+        <article class="card reveal">
+          <div class="section-heading">
+            <p class="eyebrow">Parcours</p>
+            <h2>Formation</h2>
+          </div>
+          <div class="timeline" id="education"></div>
+        </article>
+
+        <article class="card reveal">
+          <div class="section-heading">
+            <p class="eyebrow">Travaux</p>
+            <h2>Expérience</h2>
+          </div>
+          <div class="timeline" id="experience-list"></div>
+        </article>
+      </section>
+
+      <section class="grid two-up">
+        <article class="card reveal">
+          <div class="section-heading">
+            <p class="eyebrow">Connaissances</p>
+            <h2>Domaines académiques</h2>
+          </div>
+          <div class="chips chips--soft" id="knowledge"></div>
+        </article>
+
+        <article class="card reveal">
+          <div class="section-heading">
+            <p class="eyebrow">Logiciels</p>
+            <h2>Outils</h2>
+          </div>
+          <div class="chips chips--soft" id="tools"></div>
+        </article>
+      </section>
+
+      <section class="card reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Vie perso</p>
+          <h2>Centres d’intérêt</h2>
+        </div>
+        <div class="chips chips--outline" id="interests"></div>
+      </section>
+    </main>
+  </body>
+</html>
