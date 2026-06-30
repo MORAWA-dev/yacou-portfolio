@@ -162,6 +162,23 @@ document.addEventListener('DOMContentLoaded', () => {
           <h4>🎯 Objectif du projet</h4>
           <p>${profile.pfe2.objective}</p>
         </div>
+        <div class="pfe2-gallery">
+          <h4>🖼️ Résultats Visuels</h4>
+          <div class="pfe2-gallery__grid">
+            <figure class="pfe2-gallery__item">
+              <img src="images/modele_3d.png" alt="Modèle géologique 3D du Bassin d'Oued Laou dans Leapfrog Geo" loading="lazy" />
+              <figcaption>Modèle géologique 3D complet du bassin avec légende lithologique</figcaption>
+            </figure>
+            <figure class="pfe2-gallery__item">
+              <img src="images/sondages_3d.png" alt="Modélisation 3D des axes des 26 sondages carottés" loading="lazy" />
+              <figcaption>Modélisation 3D des axes des 26 sondages carottés dans l'espace du bassin</figcaption>
+            </figure>
+            <figure class="pfe2-gallery__item pfe2-gallery__item--wide">
+              <img src="images/rmse_graph.png" alt="Graphique des écarts quadratiques - Comparaison RMSE entre Surfer, Global Mapper et Leapfrog" loading="lazy" />
+              <figcaption>Écarts quadratiques entre modèles et mesures réelles (RMSE : Surfer, Global Mapper, Leapfrog)</figcaption>
+            </figure>
+          </div>
+        </div>
         <div class="pfe2-skills">
           <h4>🛠️ Compétences Techniques Déployées</h4>
           <ul>

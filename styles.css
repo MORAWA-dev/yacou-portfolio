@@ -699,3 +699,51 @@ section.card {
 .pfe2-results h4 {
   color: var(--accent-2);
 }
+
+
+/* PFE 2 - Image Gallery */
+.pfe2-gallery__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.pfe2-gallery__item {
+  margin: 0;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pfe2-gallery__item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+}
+
+.pfe2-gallery__item--wide {
+  grid-column: 1 / -1;
+}
+
+.pfe2-gallery__item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.pfe2-gallery__item figcaption {
+  padding: 12px 16px;
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-align: center;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .pfe2-gallery__grid {
+    grid-template-columns: 1fr;
+  }
+}
