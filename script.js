@@ -1,6 +1,6 @@
 const profile = {
   about:
-    "Récemment diplômé en Bachelor en Ingénierie Minière et Géologique à l’École Supérieure de Technologie de Fquih Ben Salah (Maroc), il a construit un profil terrain, méthodique et polyvalent. Son parcours met l’accent sur la géotechnique, la stabilité minière et les sujets techniques liés à l’extraction, au prétraitement, à la géologie appliquée et à la valorisation minière.",
+    "Récemment diplômé en Bachelor en Ingénierie Minière et Géologique à l'École Supérieure de Technologie de Fquih Ben Salah (Maroc), il a construit un profil terrain, méthodique et polyvalent. Son parcours met l'accent sur la géotechnique, la stabilité minière et les sujets techniques liés à l'extraction, au prétraitement, à la géologie appliquée et à la valorisation minière.",
   contact: [
     { label: 'Téléphone', value: '0635 45 73 39' },
     { label: 'Email', value: 'Ouedraogoyacou303@gmail.com', href: 'mailto:Ouedraogoyacou303@gmail.com' },
@@ -21,7 +21,7 @@ const profile = {
     {
       title: 'Bachelor en Ingénierie Minière et Géologique',
       meta: '2025-2026 · École Supérieure de Technologie, Fquih Ben Salah',
-      body: 'Diplôme obtenu cette année avec une spécialisation en sciences minières, géologie appliquée et méthodes d’exploration.'
+      body: "Diplôme obtenu cette année avec une spécialisation en sciences minières, géologie appliquée et méthodes d'exploration."
     },
     {
       title: 'Diplôme universitaire de Technologie',
@@ -36,14 +36,14 @@ const profile = {
   ],
   experience: [
     {
-      title: 'Stage de fin d’étude à l’OCP de Khouribga',
+      title: "Stage de fin d'étude à l'OCP de Khouribga",
       meta: '01/04/2025 - 30/05/2025',
       body: 'Étude critique du deschlammage et des attritionnaires dans la cellule de flottation.'
     },
     {
-      title: 'Stage technique d’initiation à l’OCP de Sidi Chennane',
+      title: "Stage technique d'initiation à l'OCP de Sidi Chennane",
       meta: '01/07/2025 - 28/07/2025',
-      body: 'Découverte des étapes d’extraction du phosphate et du prétraitement du phosphate.'
+      body: "Découverte des étapes d'extraction du phosphate et du prétraitement du phosphate."
     },
     {
       title: 'Stage à AMS/WK à Ouahigouya',
@@ -56,40 +56,55 @@ const profile = {
       'Analyse de la stabilité des galeries minières du site SMI (Imiter I) basée sur les classifications géomécaniques (RMR, Q-system, Protodyakonov) et corrélation avec les observations terrain',
     meta: 'Soutenue le 23/06/2026 · EST-FBS · Mine SMI (Managem)',
     body:
-      'Travail de fin d’études centré sur l’analyse géomécanique de galeries souterraines, la qualification du massif rocheux et la proposition de soutènements adaptés. Les recommandations privilégient le boulonnage avec treillis soudé, complété par du béton projeté et des cintres métalliques dans les zones critiques.'
+      "Projet de fin d'études (PFE) centré sur l'analyse géomécanique de galeries souterraines, la qualification du massif rocheux et la proposition de soutènements adaptés. Les recommandations privilégient le boulonnage avec treillis soudé, complété par du béton projeté et des cintres métalliques dans les zones critiques."
+  },
+  pfe2: {
+    title: 'Modélisation Géologique & Hydrogéologique 3D du Bassin d\'Oued Laou (Rif, Maroc)',
+    meta: 'Projet Majeur · Logiciels : Leapfrog Geo, Surfer, Global Mapper',
+    objective: "Intégrer des données multidisciplinaires de sous-sol pour cartographier l'architecture structurale et les réservoirs aquifères d'un bassin sédimentaire complexe de 930 km².",
+    skills: [
+      "Modélisation implicite 3D : Utilisation avancée du logiciel professionnel Leapfrog Geo (fonctions de base radiales - RBF) pour la génération des volumes des horizons géologiques profonds.",
+      "Interprétation de données de sous-sol : Analyse, corrélation et intégration de profils de Tomographie de Résistivité Électrique (TRE) 2D avec les diagraphies de 26 sondages carottés atteignant jusqu'à 550 m de profondeur.",
+      "Traitement de données spatiales : Manipulation et correction de Modèles Numériques de Terrain (MNT) sous Global Mapper et analyses topographiques de surface sous Surfer."
+    ],
+    results: [
+      "Mise en évidence d'un accident structural majeur : Identification et modélisation en 3D d'une faille tectonique inédite (direction NW-SE, rejet vertical de ~220 m) agissant comme une barrière hydrogéologique et contrôlant le piégeage d'un important réservoir aquifère conducteur.",
+      "Contrôle Qualité & Analyse de Précision (QA/QC) : Évaluation statistique rigoureuse des algorithmes d'interpolation par le calcul de l'erreur quadratique moyenne. L'approche implicite sous Leapfrog Geo a optimisé la précision géométrique des couches profondes avec une erreur minimale (RMSE ~2,9 m) comparée aux méthodes d'interpolation classiques IDW (4,8 m) et TIN (3,5 m)."
+    ]
   },
   projects: [
     {
       title: 'Stabilité des galeries minières à SMI (Imiter I)',
-      eyebrow: 'Mémoire de fin d’études',
+      eyebrow: "Projet de fin d'études (PFE)",
       description: 'Analyse géomécanique, mesures terrain et recommandations de soutènement adaptées aux zones critiques.',
       href: '#thesis'
     },
     {
-      title: 'Deschlammage et attritionnaires à l’OCP de Khouribga',
+      title: 'Modélisation Géologique & Hydrogéologique 3D du Bassin d\'Oued Laou',
+      eyebrow: 'Projet Majeur (PFE)',
+      description: "Modélisation 3D d'un bassin sédimentaire de 930 km² avec Leapfrog Geo, identification d'une faille tectonique inédite et analyse de précision QA/QC.",
+      href: '#pfe2'
+    },
+    {
+      title: "Deschlammage et attritionnaires à l'OCP de Khouribga",
       eyebrow: 'Stage OCP',
       description: 'Étude critique du comportement de la cellule de flottation et des paramètres de traitement.',
       href: '#experience'
     },
     {
       title: 'Extraction et prétraitement du phosphate à Sidi Chennane',
-      eyebrow: 'Stage d’initiation',
+      eyebrow: "Stage d'initiation",
       description: 'Observation des opérations minières et des étapes de prétraitement du phosphate sur site.',
       href: '#experience'
     }
   ],
   knowledge: [
-    'Calculs géotechniques',
+    'Stabilité des infrastructures minières',
     'Topographie souterraine',
-    'Hydrogéologie minière',
-    'Géophysique',
-    'Rejet minier et valorisation',
-    'Télédétection / SIG',
-    'Minéralogie',
-    'Technique d’exploration',
-    'Technique d’exploitation',
-    'Géologie appliquée',
-    'Hydrométallurgie'
+    'Mécanique des roches avancées',
+    'Hydraulique souterraine',
+    "Foration et Abattage à l'explosif",
+    'Télédétection et SIG'
   ],
   tools: [
     'Microsoft Office',
@@ -97,9 +112,10 @@ const profile = {
     'Photoshop',
     'Envi',
     'Leapfrog Geo',
+    'Surfer',
+    'Global Mapper',
     'Canvas',
-    'ArcGIS',
-    'Forage à explosif'
+    'ArcGIS'
   ],
   interests: ['Culture et arts', 'Environnement', 'Sport', 'Développement personnel'],
   languages: ['Mooré : maîtrise parfaite', 'Français : courant', 'Anglais : intermédiaire']
@@ -127,6 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('about-text').textContent = profile.about;
   document.getElementById('languages').textContent = profile.languages.join(' · ');
 
+  // Render PFE 1 (thesis)
   const thesis = document.getElementById('thesis');
   thesis.innerHTML = `
     <h3 class="thesis__title">${profile.thesis.title}</h3>
@@ -134,6 +151,34 @@ document.addEventListener('DOMContentLoaded', () => {
     <p class="thesis__body">${profile.thesis.body}</p>
   `;
 
+  // Render PFE 2 (Bassin d'Oued Laou)
+  const pfe2 = document.getElementById('pfe2');
+  if (pfe2) {
+    pfe2.innerHTML = `
+      <h3 class="thesis__title">${profile.pfe2.title}</h3>
+      <p class="thesis__meta">${profile.pfe2.meta}</p>
+      <div class="pfe2-content">
+        <div class="pfe2-objective">
+          <h4>🎯 Objectif du projet</h4>
+          <p>${profile.pfe2.objective}</p>
+        </div>
+        <div class="pfe2-skills">
+          <h4>🛠️ Compétences Techniques Déployées</h4>
+          <ul>
+            ${profile.pfe2.skills.map(s => `<li>${s}</li>`).join('')}
+          </ul>
+        </div>
+        <div class="pfe2-results">
+          <h4>📊 Résultats Clés & Impact Scientifique</h4>
+          <ul>
+            ${profile.pfe2.results.map(r => `<li>${r}</li>`).join('')}
+          </ul>
+        </div>
+      </div>
+    `;
+  }
+
+  // Render projects
   const projects = document.getElementById('projects-grid');
   if (projects) {
     projects.innerHTML = profile.projects
